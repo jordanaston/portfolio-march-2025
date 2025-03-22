@@ -1,20 +1,15 @@
-import { Button } from "@/components/ui/button";
-import { Switch } from "@/components/ui/switch";
-import { useTheme, Theme } from "@/context/ThemeContext";
+import NarBar from "@/components/NarBar";
 
 export default function Home() {
-  const { theme, setTheme } = useTheme();
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <Button>Click me</Button>
-      <Switch
-        checked={theme === Theme.LIGHT}
-        className="cursor-pointer"
-        onCheckedChange={() =>
-          setTheme(theme === Theme.DARK ? Theme.LIGHT : Theme.DARK)
-        }
-      />
-      <h1 className="text-4xl">Hello World</h1>
+    <div className="min-h-screen">
+      <NarBar />
+      <div className="mx-auto">
+        <div className="mt-28 grid grid-cols-[minmax(0,650px)_minmax(auto,850px)_auto]">
+          <div className="col-start-1 flex flex-col items-start justify-center" />
+          <div className="col-start-2 mt-16 flex flex-col items-start justify-center"></div>
+        </div>
+      </div>
     </div>
   );
 }
