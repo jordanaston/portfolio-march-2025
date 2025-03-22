@@ -9,7 +9,7 @@ export default function NarBar() {
 
   return (
     <nav className="fixed top-0 right-0 left-0 flex items-center justify-between p-4">
-      <div className="flex items-center">
+      <div className="flex items-center gap-2">
         <div className="cursor-pointer text-xl leading-[0.85] font-semibold">
           <p>JORDAN</p>
           <p>ASTON.IO</p>
