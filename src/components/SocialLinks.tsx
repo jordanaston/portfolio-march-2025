@@ -27,19 +27,21 @@ const socialLinks = [
 
 export default function SocialLinks() {
   return (
-    <div className="flex w-full flex-col items-center justify-between gap-4">
-      <p className="text-sm">FIND ME ONLINE</p>
-      <div className="flex flex-row items-center justify-between gap-4 w-full">
+    <div className="flex w-full flex-col items-center justify-between gap-[clamp(0.2rem,0.8vw+0.25rem,1rem)]">
+      <p className="text-[clamp(0.35rem,0.7vw+0.3rem,0.875rem)]">
+        FIND ME ONLINE
+      </p>
+      <div className="flex w-full flex-row items-center justify-between gap-[clamp(0.15rem,0.8vw+0.25rem,1rem)]">
         {socialLinks.map(({ icon: Icon, name, url }) => (
           <Button
             key={name}
             variant="outline"
-            className="h-10 cursor-pointer rounded-none"
+            className="h-[clamp(1rem,2vw+1rem,2.5rem)] rounded-none"
             onClick={() => window.open(url, "_blank", "noopener,noreferrer")}
           >
-            <div className="flex flex-row items-center justify-center gap-2 p-4">
-              <Icon className="size-6" />
-              <p>{name}</p>
+            <div className="flex flex-row items-center justify-center gap-[clamp(0.1rem,0.4vw+0.15rem,0.5rem)] px-[clamp(0.2rem,0.4vw+0.25rem,1rem)]">
+              <Icon className="size-[clamp(0.5rem,1.2vw+0.5rem,1.5rem)]" />
+              <p className="text-[clamp(0.4rem,0.8vw+0.3rem,1rem)]">{name}</p>
             </div>
           </Button>
         ))}
