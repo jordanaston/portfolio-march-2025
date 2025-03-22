@@ -8,9 +8,9 @@ export default function NarBar() {
   const tabs = [{ label: "HOME" }, { label: "WORK" }, { label: "INFO" }];
 
   return (
-    <nav className="fixed left-0 right-0 top-0 flex items-center justify-between p-4">
+    <nav className="fixed top-0 right-0 left-0 flex items-center justify-between p-4">
       <div className="flex items-center">
-        <div className="cursor-pointer text-xl font-semibold leading-[0.85]">
+        <div className="cursor-pointer text-xl leading-[0.85] font-semibold">
           <p>JORDAN</p>
           <p>ASTON.IO</p>
         </div>
