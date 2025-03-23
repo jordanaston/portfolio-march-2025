@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <NarBar />
-      <div className="w-screen">
+      <div className="relative z-30 w-screen">
         <div className="mt-24 grid w-full grid-cols-[minmax(clamp(1rem,5vw,2rem),auto)_minmax(350px,1fr)_minmax(clamp(1rem,5vw,2rem),auto)] sm:mt-32 md:grid-cols-[minmax(20px,clamp(500px,30vw,750px))_minmax(350px,clamp(850px,50vw,1200px))_minmax(60px,1fr)]">
           <HeroSection />
           <div className="col-start-1 flex flex-col items-start justify-center" />

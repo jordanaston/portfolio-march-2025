@@ -12,7 +12,7 @@ export default function NarBar() {
 
   return (
     <motion.nav
-      className="fixed top-0 right-0 left-0 z-50 flex items-center justify-between px-4 py-[clamp(0.75rem,1vw+0.5rem,1.25rem)] backdrop-blur-sm sm:px-[clamp(0.75rem,5vw+0.5rem,8rem)]"
+      className="fixed top-0 right-0 left-0 z-40 flex items-center justify-between px-4 py-[clamp(0.75rem,1vw+0.5rem,1.25rem)] backdrop-blur-sm sm:px-[clamp(0.75rem,5vw+0.5rem,8rem)]"
       style={{ backgroundColor }}
     >
       <div className="flex items-center gap-[clamp(0.5rem,0.5vw+0.25rem,0.75rem)]">

@@ -33,7 +33,7 @@ export default function ProjectCard({ section, className }: ProjectCardProps) {
         <p className="text-muted-foreground text-[clamp(0.75rem,1.5vw,0.875rem)] font-medium">
           {section.subTitle}
         </p>
-        <div className="text-muted-foreground max-w-[60ch] text-[clamp(0.875rem,2vw,1.2rem)]">
+        <div className="text-muted-foreground max-w-[60ch] text-[clamp(0.875rem,2vw,1.2rem)] leading-[1.2]">
           {Array.isArray(section.paragraphs) &&
             section.paragraphs.map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
