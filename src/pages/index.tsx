@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="mb-48 min-h-screen">
       <NarBar />
-      <div className="relative z-30 w-screen">
+      <section id="home" className="relative z-30 w-screen">
         <div className="mt-24 grid w-full grid-cols-[minmax(clamp(1rem,5vw,2rem),auto)_minmax(350px,1fr)_minmax(clamp(1rem,5vw,2rem),auto)] sm:mt-32 md:grid-cols-[minmax(20px,clamp(500px,30vw,750px))_minmax(350px,clamp(850px,50vw,1200px))_minmax(60px,1fr)]">
           <HeroSection />
           <div className="col-start-1 flex flex-col items-start justify-center" />
@@ -33,16 +33,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="mx-auto max-w-[90vw] space-y-32 py-32">
+      <section id="work" className="mx-auto max-w-[90vw] space-y-32 py-32">
         <ProjectCard section={ECommerceApp()} />
         <ProjectCard section={LocalPegs()} />
         <ProjectCard section={GlueNetwork()} />
         <ProjectCard section={NbmForum()} />
-      </div>
+      </section>
 
-      <div className="w-screen">
+      <section id="info" className="w-screen">
         <div className="grid w-full grid-cols-[minmax(clamp(1rem,5vw,2rem),auto)_minmax(350px,1fr)_minmax(clamp(1rem,5vw,2rem),auto)] md:grid-cols-[minmax(20px,clamp(500px,30vw,750px))_minmax(350px,clamp(850px,50vw,1200px))_minmax(60px,1fr)]">
           <div className="col-start-2 flex flex-col">
             <div className="mb-48 flex flex-col">
@@ -56,16 +56,16 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="mx-auto max-w-[90vw]">
+      <section id="contact" className="mx-auto max-w-[90vw]">
         <div className="mx-auto max-w-2xl">
           <h2 className="mb-8 text-[clamp(1.25rem,2vw,1.75rem)] font-medium">
             GET IN TOUCH
           </h2>
           <ContactForm />
         </div>
-      </div>
+      </section>
       <div className="mx-auto mt-48 max-w-[70vw]">
         <TechStack />
       </div>
