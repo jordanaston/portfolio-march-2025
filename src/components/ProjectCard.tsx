@@ -20,7 +20,7 @@ export default function ProjectCard({ section, className }: ProjectCardProps) {
   return (
     <div
       className={cn(
-        "group flex flex-col-reverse items-center justify-center gap-8 p-8 transition-colors sm:flex-row sm:gap-12 lg:gap-24",
+        "group flex min-h-[400px] flex-col-reverse items-center justify-center gap-8 p-8 transition-colors sm:flex-row sm:gap-12 lg:gap-24",
         "hover:bg-muted dark:hover:bg-muted/50 cursor-pointer",
         section.reverseContent && "sm:flex-row-reverse",
         className
