@@ -14,6 +14,7 @@ import {
 import MoreProjects from "@/components/MoreProjects";
 import ContactForm from "@/components/ContactForm";
 import TechStack from "@/components/TechStack";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -68,6 +69,7 @@ export default function Home() {
       <div className="mx-auto mt-48 max-w-[70vw]">
         <TechStack />
       </div>
+      <BackToTop />
     </div>
   );
 }

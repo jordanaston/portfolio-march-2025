@@ -30,7 +30,7 @@ const techIcons = [
   { icon: IoLogoVercel, label: "Vercel" },
   { icon: SiShadcnui, label: "shadcn/ui" },
   { icon: RiTailwindCssFill, label: "Tailwind" },
-  { icon: SiFramer, label: "Motion" },
+  { icon: SiFramer, label: "Framer Motion" },
   { icon: IoLogoFigma, label: "Figma" },
   { icon: FaNode, label: "Node.js" },
   { icon: SiExpress, label: "Express" },
@@ -49,11 +49,11 @@ const techIcons = [
 export default function TechStack() {
   return (
     <div className="flex flex-col gap-4">
-      <div className="grid grid-cols-4 gap-8 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12">
+      <div className="grid grid-cols-3 gap-x-10 gap-y-8 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
         {techIcons.map(({ icon: Icon, label }) => (
           <div key={label} className="group flex flex-col items-center gap-2">
             <Icon className="h-8 w-8 transition-all group-hover:scale-125" />
-            <span className="text-muted-foreground text-xs opacity-0 transition-opacity group-hover:opacity-100">
+            <span className="text-muted-foreground text-xs whitespace-nowrap opacity-0 transition-opacity group-hover:opacity-100">
               {label}
             </span>
           </div>
