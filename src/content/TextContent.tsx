@@ -16,7 +16,7 @@ export function Info(): TextContentSection {
     title: "INFO",
     paragraphs: [
       <p key="1">
-        After studying web development at Coder Academy Brisbane, I went on to
+        After studying web development at Coder Academy in 2023, I went on to
         complete an internship at{" "}
         <a
           href="https://www.moonward.com.au/"
@@ -24,10 +24,10 @@ export function Info(): TextContentSection {
           rel="noopener noreferrer"
           className="hover:text-foreground dark:hover:text-accent underline transition-colors hover:no-underline"
         >
-          Moonward Apps
+          Moonward Apps,
         </a>{" "}
-        in 2023, which gave me a solid foundation in modern app development. I
-        currently work at{" "}
+        where I gained a solid foundation in modern app development. I
+        currently work as a software engineer at{" "}
         <a
           href="https://labrys.io/"
           target="_blank"
@@ -37,7 +37,7 @@ export function Info(): TextContentSection {
           Labrys
         </a>{" "}
         in Brisbane, where I&apos;ve been deep diving into blockchain and
-        full-stack web2 development for the past year and a half.
+        full-stack web2 development for web & mobile over the past year and a half.
       </p>,
       <p key="2">
         I thrive on learning new tech and solving tricky problems. Love working
