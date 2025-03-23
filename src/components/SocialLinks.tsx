@@ -39,7 +39,7 @@ export default function SocialLinks() {
             className="h-[clamp(1rem,2vw+1rem,2.5rem)] rounded-none"
             onClick={() => window.open(url, "_blank", "noopener,noreferrer")}
           >
-            <div className="flex flex-row items-center justify-center gap-[clamp(0.1rem,0.4vw+0.15rem,0.5rem)] px-[clamp(0.2rem,0.4vw+0.25rem,1rem)]">
+            <div className="flex flex-row items-center justify-center gap-[clamp(0.1rem,0.4vw+0.15rem,0.5rem)] px-0 sm:px-[clamp(0.2rem,1.5vw+0.5rem,2rem)]">
               <Icon className="size-[clamp(0.5rem,1.2vw+0.5rem,1.5rem)]" />
               <p className="text-[clamp(0.4rem,0.8vw+0.3rem,1rem)]">{name}</p>
             </div>
