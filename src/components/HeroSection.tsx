@@ -24,8 +24,16 @@ export default function HeroSection() {
         <p className={cn(titleTextStyles)}>DEVELOPER.</p>
       </div>
       <div className="col-start-3 flex flex-col items-end justify-center">
-        <Button className="mr-[-66px] hidden rotate-90 cursor-pointer rounded-none px-[clamp(1.5rem,2vw+1rem,2rem)] py-[clamp(1rem,1.5vw+0.5rem,1.5rem)] text-[clamp(0.875rem,1.2vw+0.5rem,1.125rem)] md:inline-flex">
-          RESUME / CV
+        <Button
+          asChild
+          className="mr-[-66px] hidden rotate-90 cursor-pointer rounded-none px-[clamp(1.5rem,2vw+1rem,2rem)] py-[clamp(1rem,1.5vw+0.5rem,1.5rem)] text-[clamp(0.875rem,1.2vw+0.5rem,1.125rem)] md:inline-flex"
+        >
+          <a
+            href="/resume/Jordan Aston - Fullstack Developer Resume.pdf"
+            download
+          >
+            RESUME / CV
+          </a>
         </Button>
       </div>
     </>

@@ -10,7 +10,7 @@ import {
   GlueNetwork,
   LocalPegs,
   NbmForum,
-} from "@/content/ProjectsContent";
+} from "@/content/ProjectContent";
 import MoreProjects from "@/components/MoreProjects";
 import ContactForm from "@/components/ContactForm";
 import TechStack from "@/components/TechStack";
@@ -37,9 +37,9 @@ export default function Home() {
 
       <div className="mx-auto max-w-[90vw] space-y-32 py-32">
         <ProjectCard section={ECommerceApp()} />
-        <ProjectCard section={NbmForum()} />
-        <ProjectCard section={GlueNetwork()} />
         <ProjectCard section={LocalPegs()} />
+        <ProjectCard section={GlueNetwork()} />
+        <ProjectCard section={NbmForum()} />
       </div>
 
       <div className="w-screen">
