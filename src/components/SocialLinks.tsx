@@ -21,7 +21,7 @@ const socialLinks = [
   {
     icon: SiGmail,
     name: "Mail",
-    url: "mailto:jordanaston93@gmail.com",
+    url: `mailto:${process.env.NEXT_PUBLIC_PERSONAL_EMAIL!}`,
   },
 ] as const;
 
