@@ -20,7 +20,7 @@ export default function ScrollIndicator() {
       className="fixed bottom-8 left-1/2 -translate-x-1/2 transition-opacity duration-200"
       style={{ opacity }}
     >
-      <FaArrowDown className="animate-bounce text-2xl" />
+      <FaArrowDown className="animate-bounce text-3xl" />
     </div>
   );
 }

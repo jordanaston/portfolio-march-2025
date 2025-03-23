@@ -34,7 +34,9 @@ export default function MoreProjects() {
             index === 0 && "border-t"
           )}
         >
-          {project.title}
+          <p className="transition-[margin] duration-300 ease-out hover:ml-8">
+            {project.title}
+          </p>
         </Link>
       ))}
     </div>
