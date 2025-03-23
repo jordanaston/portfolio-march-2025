@@ -15,7 +15,7 @@ export function Info(): TextContentSection {
   return {
     title: "INFO",
     paragraphs: [
-      "After studying web development at Coder Academy Brisbane, I went on to complete an internship at Moonward Apps in 2023, which gave me solid foundation in modern app development. I currently work at Labrys in Brisbane, where I've been diving deep into blockchain and full-stack web2 development for the past year and a half.",
+      "After studying web development at Coder Academy Brisbane, I went on to complete an internship at Moonward Apps in 2023, which gave me a solid foundation in modern app development. I currently work at Labrys in Brisbane, where I've been deep diving into blockchain and full-stack web2 development for the past year and a half.",
       "I thrive on learning new tech and solving tricky problems. Love working with teams where we can bounce ideas off each other and build cool stuff together. Always excited to jump into new projects and figure out creative solutions.",
     ],
   };

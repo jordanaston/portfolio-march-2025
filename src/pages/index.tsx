@@ -13,6 +13,7 @@ import {
 } from "@/content/ProjectsContent";
 import MoreProjects from "@/components/MoreProjects";
 import ContactForm from "@/components/ContactForm";
+import TechStack from "@/components/TechStack";
 
 export default function Home() {
   return (
@@ -63,6 +64,9 @@ export default function Home() {
           </h2>
           <ContactForm />
         </div>
+      </div>
+      <div className="mx-auto mt-48 max-w-[70vw]">
+        <TechStack />
       </div>
     </div>
   );

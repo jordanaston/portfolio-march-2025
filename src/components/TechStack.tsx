@@ -1,0 +1,64 @@
+import {
+  SiNextdotjs,
+  SiReactquery,
+  SiTypescript,
+  SiTrpc,
+  SiZod,
+  SiShadcnui,
+  SiMongodb,
+  SiJira,
+  SiExpress,
+  SiFlask,
+  SiPostgresql,
+  SiPostman,
+} from "react-icons/si";
+import { FaReact, FaSlack, FaNode, FaPython, FaGitAlt } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
+import { IoLogoVercel, IoLogoFigma } from "react-icons/io5";
+import { RiTailwindCssFill, RiNotionFill } from "react-icons/ri";
+import { VscVscode } from "react-icons/vsc";
+import { SiFramer } from "react-icons/si";
+
+const techIcons = [
+  { icon: SiNextdotjs, label: "Next.js" },
+  { icon: FaReact, label: "React" },
+  { icon: TbBrandReactNative, label: "React Native" },
+  { icon: SiReactquery, label: "React Query" },
+  { icon: SiTypescript, label: "TypeScript" },
+  { icon: SiTrpc, label: "tRPC" },
+  { icon: SiZod, label: "Zod" },
+  { icon: IoLogoVercel, label: "Vercel" },
+  { icon: SiShadcnui, label: "shadcn/ui" },
+  { icon: RiTailwindCssFill, label: "Tailwind" },
+  { icon: SiFramer, label: "Motion" },
+  { icon: IoLogoFigma, label: "Figma" },
+  { icon: FaNode, label: "Node.js" },
+  { icon: SiExpress, label: "Express" },
+  { icon: SiMongodb, label: "MongoDB" },
+  { icon: FaPython, label: "Python" },
+  { icon: SiFlask, label: "Flask" },
+  { icon: SiPostgresql, label: "PostgreSQL" },
+  { icon: VscVscode, label: "VS Code" },
+  { icon: FaGitAlt, label: "Git" },
+  { icon: SiPostman, label: "Postman" },
+  { icon: SiJira, label: "Jira" },
+  { icon: FaSlack, label: "Slack" },
+  { icon: RiNotionFill, label: "Notion" },
+];
+
+export default function TechStack() {
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="grid grid-cols-4 gap-8 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12">
+        {techIcons.map(({ icon: Icon, label }) => (
+          <div key={label} className="group flex flex-col items-center gap-2">
+            <Icon className="h-8 w-8 transition-all group-hover:scale-125" />
+            <span className="text-muted-foreground text-xs opacity-0 transition-opacity group-hover:opacity-100">
+              {label}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
