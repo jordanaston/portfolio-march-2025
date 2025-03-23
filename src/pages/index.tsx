@@ -11,6 +11,7 @@ import {
   LocalPegs,
   NbmForum,
 } from "@/content/ProjectsContent";
+import MoreProjects from "@/components/MoreProjects";
 
 export default function Home() {
   return (
@@ -41,8 +42,14 @@ export default function Home() {
       <div className="w-screen">
         <div className="grid w-full grid-cols-[minmax(clamp(1rem,5vw,2rem),auto)_minmax(350px,1fr)_minmax(clamp(1rem,5vw,2rem),auto)] md:grid-cols-[minmax(20px,clamp(500px,30vw,750px))_minmax(350px,clamp(850px,50vw,1200px))_minmax(60px,1fr)]">
           <div className="col-start-2 flex flex-col">
-            <div className="mb-24 flex flex-col">
+            <div className="mb-48 flex flex-col">
               <TextCard section={Info()} size="small" />
+              <div className="mt-48">
+                <p className="mb-4 text-[clamp(0.75rem,1vw+0.5rem,1rem)]">
+                  MORE PROJECTS
+                </p>
+                <MoreProjects />
+              </div>
             </div>
           </div>
         </div>
