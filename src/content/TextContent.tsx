@@ -1,6 +1,6 @@
-import type { ContentSection } from "@/components/TextCard";
+import type { TextContentSection } from "@/components/TextCard";
 
-export function About(): ContentSection {
+export function About(): TextContentSection {
   return {
     title: "ABOUT",
     paragraphs: [
@@ -11,7 +11,7 @@ export function About(): ContentSection {
   };
 }
 
-export function Info(): ContentSection {
+export function Info(): TextContentSection {
   return {
     title: "INFO",
     paragraphs: [

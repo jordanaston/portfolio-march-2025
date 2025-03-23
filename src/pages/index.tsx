@@ -1,9 +1,16 @@
 import HeroSection from "@/components/HeroSection";
 import NarBar from "@/components/NarBar";
 import SocialLinks from "@/components/SocialLinks";
-import TextContent from "@/components/TextCard";
+import TextCard from "@/components/TextCard";
 import { About, Info } from "@/content/TextContent";
 import ScrollIndicator from "@/components/ScrollIndicator";
+import ProjectCard from "@/components/ProjectCard";
+import {
+  ECommerceApp,
+  GlueNetwork,
+  LocalPegs,
+  NbmForum,
+} from "@/content/ProjectsContent";
 
 export default function Home() {
   return (
@@ -17,9 +24,25 @@ export default function Home() {
             <SocialLinks />
             <ScrollIndicator />
             <div className="h-[60vh]" />
-            <div className="mb-24 flex flex-col gap-48">
-              <TextContent section={About()} />
-              <TextContent section={Info()} />
+            <div className="mb-24 flex flex-col">
+              <TextCard section={About()} fontWeight="medium" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto max-w-[90vw] space-y-32 py-32">
+        <ProjectCard section={ECommerceApp()} />
+        <ProjectCard section={NbmForum()} />
+        <ProjectCard section={GlueNetwork()} />
+        <ProjectCard section={LocalPegs()} />
+      </div>
+
+      <div className="w-screen">
+        <div className="grid w-full grid-cols-[minmax(clamp(1rem,5vw,2rem),auto)_minmax(350px,1fr)_minmax(clamp(1rem,5vw,2rem),auto)] md:grid-cols-[minmax(20px,clamp(500px,30vw,750px))_minmax(350px,clamp(850px,50vw,1200px))_minmax(60px,1fr)]">
+          <div className="col-start-2 flex flex-col">
+            <div className="mb-24 flex flex-col">
+              <TextCard section={Info()} size="small" />
             </div>
           </div>
         </div>
