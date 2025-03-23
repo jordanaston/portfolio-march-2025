@@ -13,13 +13,12 @@ export default function Home() {
         <div className="mt-24 grid w-full grid-cols-[minmax(clamp(1rem,5vw,2rem),auto)_minmax(350px,1fr)_minmax(clamp(1rem,5vw,2rem),auto)] sm:mt-32 md:grid-cols-[minmax(20px,clamp(500px,30vw,750px))_minmax(350px,clamp(850px,50vw,1200px))_minmax(60px,1fr)]">
           <HeroSection />
           <div className="col-start-1 flex flex-col items-start justify-center" />
-          <div className="col-start-2 mt-8 flex flex-col items-start justify-center gap-8 sm:mt-16">
+          <div className="col-start-2 mt-8 flex flex-col items-start justify-center sm:mt-16">
             <SocialLinks />
             <ScrollIndicator />
-            <div className="mt-4 flex flex-col md:mt-100">
+            <div className="h-[60vh]" />
+            <div className="mb-24 flex flex-col gap-48">
               <TextContent section={About()} />
-            </div>
-            <div className="mt-48 flex flex-col">
               <TextContent section={Info()} />
             </div>
           </div>
