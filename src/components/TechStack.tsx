@@ -49,7 +49,7 @@ const techIcons = [
 export default function TechStack() {
   return (
     <div className="flex flex-col gap-4">
-      <div className="grid grid-cols-3 gap-x-10 gap-y-8 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+      <div className="grid grid-cols-4 gap-x-10 gap-y-8 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
         {techIcons.map(({ icon: Icon, label }) => (
           <div key={label} className="group flex flex-col items-center gap-2">
             <Icon className="h-8 w-8 transition-all group-hover:scale-125" />
