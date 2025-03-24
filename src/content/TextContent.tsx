@@ -17,7 +17,7 @@ export function Info(): TextContentSection {
     paragraphs: [
       <p key="1">
         After studying web development at Coder Academy from 2022 - 2023, I went on to
-        complete a frontend development internship at{" "}
+        complete an internship at{" "}
         <a
           href="https://www.moonward.com.au/"
           target="_blank"
