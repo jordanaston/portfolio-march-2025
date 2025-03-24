@@ -36,9 +36,9 @@ export default function Home() {
       </section>
 
       <section id="work" className="mx-auto max-w-[90vw] space-y-32 py-32">
-        <ProjectCard section={ECommerceApp()} />
-        <ProjectCard section={LocalPegs()} />
         <ProjectCard section={GlueNetwork()} />
+        <ProjectCard section={LocalPegs()} />
+        <ProjectCard section={ECommerceApp()} />
         <ProjectCard section={NbmForum()} />
       </section>
 
