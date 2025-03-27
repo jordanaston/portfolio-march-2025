@@ -18,19 +18,19 @@ html {
 }
 
 #home {
-  scroll-margin-top: 8rem;
-}
-
-#work {
-  scroll-margin-top: -5rem;
-}
-
-#info {
   scroll-margin-top: 10rem;
 }
 
+#work {
+  scroll-margin-top: 2.5rem;
+}
+
+#info {
+  scroll-margin-top: 8rem;
+}
+
 #contact {
-  scroll-margin-top: 12rem;
+  scroll-margin-top: 10rem;
 }
 
 section[id] {
