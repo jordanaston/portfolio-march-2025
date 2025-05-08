@@ -37,11 +37,11 @@ export function Info(): TextContentSection {
           Labrys
         </a>{" "}
         in Brisbane, where I&apos;ve been deep diving into blockchain and
-        full-stack web2 development for web & mobile over the past year and a half.
+        full-stack development for web & mobile.
       </p>,
       <p key="2">
         I thrive on learning new tech and solving tricky problems. Love working
-        with teams where we can bounce ideas off each other and build cool stuff
+        with teams where we can bounce around ideas and build cool stuff
         together. Always excited to jump into new projects and figure out
         creative solutions.
       </p>,
