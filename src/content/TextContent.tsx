@@ -5,8 +5,8 @@ export function About(): TextContentSection {
     title: "ABOUT",
     paragraphs: [
       "Hi, I'm Jordan.",
-      "I'm a developer from Brisbane, Australia, passionate about building dynamic web and mobile applications.",
-      "Here you'll find a selection of my most recent work, projects I've built with dedication and a love for development.",
+      "I'm a developer from Brisbane, Australia - passionate about building dynamic web and mobile applications.",
+      "Here you'll find a selection of my recent work - projects I've built with dedication and a love for development.",
     ],
   };
 }
@@ -16,18 +16,18 @@ export function Info(): TextContentSection {
     title: "INFO",
     paragraphs: [
       <p key="1">
-        After studying web development at Coder Academy from 2022 - 2023, I went on to
-        complete an internship at{" "}
+        After studying web development at Coder Academy from 2022 - 2023, I went
+        on to complete an internship at{" "}
         <a
           href="https://www.moonward.com.au/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-foreground dark:hover:text-accent underline transition-colors hover:no-underline"
         >
-          Moonward Apps,
+          Moonward Apps
         </a>{" "}
-        where I gained a solid foundation in modern app development. I
-        currently work as a software engineer at{" "}
+        where I built a solid foundation in modern app development. I&apos;ve
+        since worked as a software engineer at{" "}
         <a
           href="https://labrys.io/"
           target="_blank"
@@ -36,8 +36,16 @@ export function Info(): TextContentSection {
         >
           Labrys
         </a>{" "}
-        in Brisbane, where I&apos;ve been deep diving into blockchain and
-        full-stack development for web & mobile.
+        in Brisbane, gaining experience in blockchain and fullstack development
+        for web &amp; mobile. Currently employed as a fullstack developer at{" "}
+        <a
+          href="https://pz.com.au/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-foreground dark:hover:text-accent underline transition-colors hover:no-underline"
+        >
+          Patient Zero.
+        </a>{" "}
       </p>,
       <p key="2">
         I thrive on learning new tech and solving tricky problems. Love working

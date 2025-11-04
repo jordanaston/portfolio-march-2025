@@ -10,6 +10,7 @@ import {
   GlueNetwork,
   LocalPegs,
   NbmForum,
+  PostApocalypseTradeHub,
 } from "@/content/ProjectContent";
 import MoreProjects from "@/components/MoreProjects";
 import ContactForm from "@/components/ContactForm";
@@ -29,7 +30,7 @@ export default function Home() {
             <ScrollIndicator />
             <div className="h-[60vh]" />
             <div className="flex flex-col">
-              <TextCard section={About()} fontWeight="medium" />
+              <TextCard section={About()} fontWeight="normal" />
             </div>
           </div>
         </div>
@@ -38,8 +39,9 @@ export default function Home() {
       <section id="work" className="mx-auto mt-24 max-w-[90vw]">
         <ProjectCard section={GlueNetwork()} />
         <ProjectCard section={LocalPegs()} />
-        <ProjectCard section={ECommerceApp()} />
+        <ProjectCard section={PostApocalypseTradeHub()} />
         <ProjectCard section={NbmForum()} />
+        <ProjectCard section={ECommerceApp()} />
       </section>
 
       <section id="info" className="mt-36 w-screen">

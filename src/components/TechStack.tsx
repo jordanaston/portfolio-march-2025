@@ -51,9 +51,12 @@ export default function TechStack() {
     <div className="flex flex-col gap-4">
       <div className="grid grid-cols-4 gap-x-10 gap-y-8 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
         {techIcons.map(({ icon: Icon, label }) => (
-          <div key={label} className="group flex flex-col items-center gap-2">
+          <div
+            key={label}
+            className="group flex cursor-pointer flex-col items-center gap-2"
+          >
             <Icon className="h-8 w-8 transition-all group-hover:scale-125" />
-            <span className="text-muted-foreground text-xs whitespace-nowrap opacity-0 transition-opacity group-hover:opacity-100">
+            <span className="text-muted-foreground text-xs whitespace-nowrap">
               {label}
             </span>
           </div>

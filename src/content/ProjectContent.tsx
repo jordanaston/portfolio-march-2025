@@ -5,6 +5,21 @@ export enum ImageDeviceType {
   IPHONE = "iphone",
 }
 
+// https://mockuphone.com TO GENERATE DEVICE IMAGES
+
+export function PostApocalypseTradeHub(): ProjectContentSection {
+  return {
+    title: "POST-APOCALYPSE TRADE HUB",
+    subTitle: "PERSONAL PROJECT",
+    paragraphs: [
+      "A Next.js application simulating a post-apocalyptic trading hub where survivors can exchange essential supplies using a credit-based economy system. Features authentication, item trading with dynamic quantity and value updates, and an AI Materializer that generates custom items using DeepAI's image generation API. Built with Next.js / TypeScript / Tailwind / Docker / Swagger.",
+    ],
+    image: "/images/post-apocalypse-trade-hub-macbook.png",
+    deviceType: ImageDeviceType.MACBOOK,
+    link: "https://post-apocalypse-trade-hub.vercel.app/trade-hub",
+  };
+}
+
 export function ECommerceApp(): ProjectContentSection {
   return {
     title: "E-COMMERCE WEB APP",
