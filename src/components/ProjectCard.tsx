@@ -18,7 +18,15 @@ type ProjectCardProps = {
   className?: string;
 };
 
+const DEVICE_DIMENSIONS: Record<ImageDeviceType, number> = {
+  [ImageDeviceType.MACBOOK]: 400,
+  [ImageDeviceType.IPHONE]: 200,
+  [ImageDeviceType.IPAD]: 250,
+};
+
 export default function ProjectCard({ section, className }: ProjectCardProps) {
+  const imageSize = DEVICE_DIMENSIONS[section.deviceType] ?? 0;
+
   return (
     <Link href={section.link} target="_blank" rel="noopener noreferrer">
       <div
@@ -47,8 +55,8 @@ export default function ProjectCard({ section, className }: ProjectCardProps) {
           <Image
             src={section.image}
             alt={section.title}
-            width={section.deviceType === ImageDeviceType.MACBOOK ? 400 : 200}
-            height={section.deviceType === ImageDeviceType.MACBOOK ? 400 : 200}
+            width={imageSize}
+            height={imageSize}
             priority
           />
         </div>

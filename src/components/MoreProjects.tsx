@@ -3,10 +3,6 @@ import { cn } from "@/lib/utils";
 
 const moreProjects = [
   {
-    title: "WEATHER APP",
-    link: "https://darlingsable.netlify.app/",
-  },
-  {
     title: "UNISWAP CLONE",
     link: "https://github.com/jordanaston/uniswap-blockchain-webapp/",
   },

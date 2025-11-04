@@ -3,6 +3,7 @@ import type { ProjectContentSection } from "@/components/ProjectCard";
 export enum ImageDeviceType {
   MACBOOK = "macbook",
   IPHONE = "iphone",
+  IPAD = "ipad",
 }
 
 // https://mockuphone.com TO GENERATE DEVICE IMAGES
@@ -17,6 +18,20 @@ export function PostApocalypseTradeHub(): ProjectContentSection {
     image: "/images/post-apocalypse-trade-hub-macbook.png",
     deviceType: ImageDeviceType.MACBOOK,
     link: "https://post-apocalypse-trade-hub.vercel.app/trade-hub",
+  };
+}
+
+export function WeatherApp(): ProjectContentSection {
+  return {
+    title: "WEATHER APP",
+    subTitle: "PERSONAL PROJECT",
+    paragraphs: [
+      "A React app where users can view current weather conditions and forecasts for locations worldwide. Features location-based weather data, detailed forecasts, and temperature conversion between Celsius and Fahrenheit. Built with React / Tailwind / OpenWeatherMap One Call API 3.0.",
+    ],
+    image: "/images/weather-app-ipad.png",
+    reverseContent: true,
+    deviceType: ImageDeviceType.IPAD,
+    link: "https://darlingsable.netlify.app/",
   };
 }
 

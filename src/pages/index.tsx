@@ -11,6 +11,7 @@ import {
   LocalPegs,
   NbmForum,
   PostApocalypseTradeHub,
+  WeatherApp,
 } from "@/content/ProjectContent";
 import MoreProjects from "@/components/MoreProjects";
 import ContactForm from "@/components/ContactForm";
@@ -40,8 +41,9 @@ export default function Home() {
         <ProjectCard section={GlueNetwork()} />
         <ProjectCard section={LocalPegs()} />
         <ProjectCard section={PostApocalypseTradeHub()} />
-        <ProjectCard section={NbmForum()} />
+        <ProjectCard section={WeatherApp()} />
         <ProjectCard section={ECommerceApp()} />
+        <ProjectCard section={NbmForum()} />
       </section>
 
       <section id="info" className="mt-36 w-screen">
