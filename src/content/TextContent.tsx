@@ -5,7 +5,7 @@ export function About(): TextContentSection {
     title: "ABOUT",
     paragraphs: [
       "Hi, I'm Jordan.",
-      "I'm a developer from Brisbane, Australia - passionate about building dynamic web and mobile applications.",
+      "I'm a developer from Brisbane, Australia - passionate about building web and mobile applications.",
       "Here you'll find a selection of my recent work - projects I've built with dedication and a love for development.",
     ],
   };
@@ -26,8 +26,8 @@ export function Info(): TextContentSection {
         >
           Moonward Apps
         </a>{" "}
-        where I built a solid foundation in modern app development. I&apos;ve
-        since worked as a software engineer at{" "}
+        where I built a foundation in modern app development. I&apos;ve since
+        worked as a software engineer at{" "}
         <a
           href="https://labrys.io/"
           target="_blank"
@@ -48,10 +48,8 @@ export function Info(): TextContentSection {
         </a>{" "}
       </p>,
       <p key="2">
-        I thrive on learning new tech and solving tricky problems. Love working
-        with teams where we can bounce around ideas and build cool stuff
-        together. Always excited to jump into new projects and figure out
-        creative solutions.
+        I thrive on learning new tech, solving tricky problems and working in
+        teams where we can bounce around ideas and build cool projects together.
       </p>,
     ],
   };
