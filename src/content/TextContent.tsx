@@ -36,7 +36,7 @@ export function Info(): TextContentSection {
         >
           Labrys
         </a>{" "}
-        in Brisbane, gaining experience in blockchain and fullstack development
+        in Brisbane, gaining experience in web3 and fullstack development
         for web &amp; mobile. Currently employed as a fullstack developer at{" "}
         <a
           href="https://pz.com.au/"
